@@ -6,7 +6,7 @@ import seaborn as sns
 st.title("Smart Agriculture Monitoring Dashboard")
 
 # load dataset
-df = pd.read_csv("data/raw/cropdata_updated.csv")
+df = pd.read_csv("data/raw/Smart Agriculture.csv")
 
 st.subheader("Dataset Preview")
 st.write(df.head())
